@@ -16,6 +16,6 @@ app.use(bodyParser.urlencoded({ extended: true}));
 require("./app/routing/apiRoutes.js") (app);
 require("./app/routing/htmlRoutes.js") (app);
 
-app.listen(PORT, function {
+app.listen(PORT, function () {
     console.log("Server is running on Port " + PORT);
 });
